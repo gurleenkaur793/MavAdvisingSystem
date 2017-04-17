@@ -1,0 +1,58 @@
+body {
+	padding-top: 60px;
+	color: white;
+	background: url('../img/engineering.jpg');
+	background-size: cover;
+}
+
+@media ( max-width : 979px) {
+	body {
+		padding-top: 0px;
+		color: white;
+		background: url('../img/engineering.jpg');
+		background-size: cover;
+	}
+}
+
+label {
+	color: black;
+}
+
+.jumbotron {
+	background-color: rgba(0, 0, 0, 0.5);
+	text-align: center;
+}
+
+.footer {
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	text-align: center;
+	width: 25%;
+	margin: auto;
+	margin-top: 20px;
+	padding: 10px;
+	border-radius: 15px;
+	border-color: #000077;
+	border-width: 2px;
+	border-style: solid;
+}
+
+/* override default properties of bootstrap */
+.navbar {
+	background-color: #104E8B;
+}
+
+.navbar-inverse .navbar-nav li a {
+	color: #E67E22;
+}
+
+.navbar-inverse .navbar-brand {
+	color: #E67E22;
+}
+
+.alert {
+	width: 60%;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
